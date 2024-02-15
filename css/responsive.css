@@ -1,0 +1,275 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    .input_btn {
+      margin-left: 20rem;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .footer_logo img {
+      width: 77%;
+      padding-top: 9px;
+    }
+    .hero_section h1 { 
+      font-size: 38px;
+    }
+    .input_btn {
+      margin-left: 15rem;
+    }
+}
+     
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */ 
+  
+    .hero_search {  
+      padding: 6px 16px;
+      top: 3px; 
+      margin-bottom: 0px;}
+
+      
+    .hero_search { 
+      padding: 5px 17px; 
+    } 
+
+    .menu img {
+      height: auto;
+      width: 58%;
+    }
+
+    .menu_book {
+      border: 1px solid #e6dcdc;
+      border-radius: 10px;
+      padding: 2rem 2rem;
+      margin-bottom: 2rem;
+    }
+    .menu h4 {
+      padding-top: 24px;
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .menu p { 
+      font-size: 14px;
+    }
+    .menu h2 {
+      font-size: 20px; 
+    }
+    
+    .menu button { 
+      padding: 4px 19px; 
+      font-size: 14px;
+    }
+    .header_logo img {
+      height: auto;
+      width: 87%;
+    }
+
+    .footer_logo img {
+      width: 77% !important;
+      padding-top: 7px;
+    }
+    .hero_section h1 {
+      font-size: 49px;
+    }
+    .input_btn {
+      margin-left: 21rem;
+    }
+    .hero_search {
+      padding: 9px 19px;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .header_logo img { 
+      width: 108px;
+    }
+    .navber {
+      margin-top: 1.2rem;
+    } 
+    .footer_logo img {
+      width: 85%;
+      margin-left: 1.3rem;
+    }
+    .hero_section h1 { 
+      font-size: 39px;
+    }
+    .input_btn {
+      margin-left: 6rem;
+    }
+    .hero_section input { 
+      padding: 7px 81px 7px 25px; 
+    }
+    .hero_search {
+      border: none;
+      background-color: red;
+      border-radius: 50px;
+      padding: 6px 20px;
+      top: 3px;
+      left: 204px;
+    }
+    .hero_section {
+      padding-top: 15rem !important; 
+      height: 46vh;
+      margin-top: -164px; 
+    }
+    .all_button span {
+      font-size: 19px; 
+    }
+
+    .all_button button { 
+      font-size: 16px;
+      padding: 3px 20px 7px 20px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+
+    .navber {
+        margin-top: 0rem ; 
+    }
+    .header_logo img { 
+        width: 40%;
+        padding-top: 8px;
+    }
+    .all_button p {
+        margin-right: 23px;
+        font-size: 16px;
+    }
+
+    .all_button button {
+        padding: 0.1rem .8rem;
+        border-radius: 51px;  
+        font-size: 14px;
+    }
+
+    .navber{
+      margin-top: 15px;
+    }
+
+    .header_logo img {
+      width: 96px;
+      padding-top: 8px;
+    }  
+    
+    .hero_search {
+      border: none;
+      background-color: red;
+      border-radius: 50px;
+      padding: 5px 15px;
+      top: 3px;
+      left: 217px;
+    }
+
+    .menu_book { 
+      margin-bottom: 2rem;
+    }
+
+    .card {
+      width: 18rem !important;
+    } 
+
+    .footer_logo img {
+      width: 95% !important;
+      height: auto;
+      margin-left: 1rem;
+    }
+
+    .footer_page ul li {
+      font-size: 14px; 
+    }
+
+    .hero_section h1 { 
+      font-size: 33px;
+    }
+
+
+    .input_btn {
+      margin-left: 2rem;
+    }
+
+    .hero_section input {
+      border-radius: 50px;
+      padding: 4px 46px 4px 21px;
+      border: 2px solid #fff;
+    }
+    .hero_search { 
+      padding: 4px 15px;
+      top: 3px;
+      left: 176px;
+    }
+    .hero_section {
+      padding-top: 16rem !important;
+      height: 44vh;
+      margin-top: -172px;
+    }
+    .hero_section h1 {
+      font-size: 26px !important;
+    }
+    .hero_section input {
+      border-radius: 50px;
+      padding: 2px 40px 2px 21px;
+      border: 2px solid #fff;
+    }
+    .hero_search {
+      padding: 2px 15px;
+      top: 3px;
+      left: 169px;
+    }
+    .all_button span {
+      font-size: 16px; 
+    }
+
+    .all_button button {
+      padding: 0.3rem .8rem;
+      border-radius: 51px; 
+    }
+
+ 
+  }

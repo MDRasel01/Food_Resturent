@@ -1,0 +1,17 @@
+.sign_in_form{
+    background-image: url('/hero_section.png');
+    height: 100vh;
+}
+
+.form {
+	background-color: white;
+	height: auto;
+	width: 30%;
+	margin: 14rem auto;
+	padding: 3rem 3rem;
+	border-radius: 24px;
+}
+.btn{
+    background-color: #e72d33;
+    border: none;
+}
